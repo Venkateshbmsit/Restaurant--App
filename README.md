@@ -128,7 +128,14 @@ To deploy this project run
 ```bash
   npm run deploy
 ```
-
-
+🛠️ Technologies Used
+<p align="left"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="50" height="50"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="50" height="50"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="50" height="50"/> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongoose/mongoose-original.svg" alt="Mongoose" width="50" height="50"/> <img src="https://jwt.io/img/pic_logo.svg" alt="JWT" width="50" height="50"/> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8c/Bcrypt_logo.svg" alt="Bcrypt" width="50" height="50"/> </p>
+👨‍💻 Contributors
+<p align="left"> <img src="https://github.com/identicons/venkateshbmsit.png" width="50" height="50" alt="Venkatesh R K"/> <strong>Venkatesh R K</strong> </p>
+🔗 LinkedIn
+📧 Reach me at venkateshsulkarni8951@gmail.com
+📜 License
+<p align="left"> <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="MIT License"/> </p>
+This project is licensed under the MIT License.
 
 
