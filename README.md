@@ -23,5 +23,112 @@
 
 
 🍽️ Restaurant App Backend
-📌 Introduction
+
+ 📌 Introduction
+ 
 The Restaurant App Backend is built using the MERN stack, focusing on handling restaurant-related functionalities like food management, orders, categories, and authentication. This backend enables user authentication, order management, and restaurant listings, ensuring seamless interaction with the frontend.
+
+📖 Table of Contents
+Installation
+Usage
+Authentication
+Database Setup
+API Endpoints
+Technologies Used
+Contributors
+License
+🚀 Installation
+Prerequisites
+Ensure you have the following installed:
+
+Node.js
+MongoDB
+Postman (Optional, for API testing)
+
+
+📡 API Endpoints
+User Authentication
+Method	Endpoint	Description
+POST	/api/users/register	Register a new user
+POST	/api/users/login	Login user & get JWT
+Restaurant
+Method	Endpoint	Description
+GET	/api/restaurants	Get all restaurants
+POST	/api/restaurants	Add a new restaurant
+Food
+Method	Endpoint	Description
+GET	/api/foods	Get all food items
+POST	/api/foods	Add a new food item
+Orders
+Method	Endpoint	Description
+GET	/api/orders	Get all orders
+POST	/api/orders	Place an order
+🛠️ Technologies Used
+Node.js - Backend runtime
+Express.js - Web framework
+MongoDB - Database
+Mongoose - ODM for MongoDB
+JWT - Authentication
+Bcrypt - Password hashing
+👨‍💻 Contributors
+Venkatesh R K - LinkedIn
+Reach me at venkateshsulkarni8951@gmail.com
+📜 License
+This project is licensed under the MIT License.
+
+## API Reference
+
+#### Get all items
+
+```http
+  GET /api/items
+```
+
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
+
+#### Get item
+
+```http
+  GET /api/items/${id}
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
+
+#### add(num1, num2)
+
+Takes two numbers and returns the sum.
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+  npm run deploy
+```
+
+
+![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
