@@ -10,29 +10,30 @@ const createFoodController = async (req, res) => {
       price,
       imageUrl,
       foodTags,
-      catgeory,
+      category,
       code,
-      isAvailabe,
-      resturnat,
+      isAvailable,
+      restaurant,
       rating,
     } = req.body;
 
-    if (!title || !description || !price || !resturnat) {
-      return res.status(500).send({
+    if (!title || !description || !price || !restaurant) {
+      return res.status(400).send({
         success: false,
-        message: "Please Provide all fields",
+        message: "Please Provide all required fields",
       });
     }
+
     const newFood = new foodModal({
       title,
       description,
       price,
       imageUrl,
       foodTags,
-      catgeory,
+      category,
       code,
-      isAvailabe,
-      resturnat,
+      isAvailable,
+      restaurant,
       rating,
     });
 
@@ -46,7 +47,7 @@ const createFoodController = async (req, res) => {
     console.log(error);
     res.status(500).send({
       success: false,
-      message: "Error in create food api",
+      message: "Error in create food API",
       error,
     });
   }

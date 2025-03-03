@@ -21,12 +21,11 @@ app.use(morgan("dev"));
 
 //route
 // URL => http://localhost:8080
-app.use("/api/v1/test", require("./routes/testRoutes"));
-app.use("/api/v1/auth", require("./routes/authRoutes"));
-app.use("/api/v1/user", require("./routes/userRoutes"));
-app.use("/api/v1/resturant", require("./routes/resturantRoutes"));
-app.use("/api/v1/category", require("./routes/catgeoryRoutes"));
-app.use("/api/v1/food", require("./routes/foodRoutes"));
+app.use("/api/auth", require("./routes/authRoutes"));
+app.use("/api/user", require("./routes/userRoutes"));
+app.use("/api/resturant", require("./routes/resturantRoutes"));
+app.use("/api/category", require("./routes/catgeoryRoutes"));
+app.use("/api/food", require("./routes/foodRoutes"));
 
 app.get("/", (req, res) => {
   return res

@@ -44,6 +44,7 @@ const createResturantController = async (req, res) => {
     res.status(201).send({
       success: true,
       message: "New Resturant Created successfully",
+      newResturant,
     });
   } catch (error) {
     console.log(error);
