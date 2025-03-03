@@ -1,0 +1,7 @@
+Project Name (e.g., "Restaurant App Backend")
+Installation Steps (Any special setup instructions beyond npm install?)
+Usage Guide (How to start the server, API endpoints, or example requests?)
+Authentication (JWT, OAuth, or any special details?)
+Database (MongoDB setup details, environment variables?)
+Contributors (Your name or team members?)
+License (MIT, Apache, or any specific license?)
